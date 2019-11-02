@@ -24,9 +24,9 @@ if (command === 'spotify-this-song') {
 } else if (command === 'do-what-it-says') {
     doWhat(input);
     
-} else if (command === null) {
-    console.log(command);
-    console.log(input);
+} else {
+    //console.log(command);
+    //console.log(input);
     console.log("Liri Bot usage: ",
         "\r\n",
         "\r\nspotify-this-song <songname> to get song, Artist, and preview info.",
