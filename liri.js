@@ -73,6 +73,7 @@ function spotifyThis(input) {
 
         console.log("Returning 3 tracks:");
         for (let i = 0; i < 3; i++) {
+            console.log("Song: ", input);
             console.log(i + 1, ":");
             console.log("Artist: ", response[i].artists[0].name);
             console.log("Album: ", response[i].album.name);
