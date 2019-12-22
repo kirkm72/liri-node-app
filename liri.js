@@ -30,7 +30,7 @@ if (command === 'spotify-this-song') {
     console.log("Liri Bot usage: ",
         "\r\n",
         "\r\nspotify-this-song <songname> to get song, Artist, and preview info.",
-        "\r\noncert-this <band Name> to show the next concert.",
+        "\r\nconcert-this <band Name> to show the next concert.",
         "\r\nmovie-this <Movie Title> to show movie info, ratings, plot, etc.",
         "\r\ndo-what-it-says will run the commands listed in the random.txt file."
     );
